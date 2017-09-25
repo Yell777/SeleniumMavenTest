@@ -30,8 +30,8 @@
       <file leaf-file-name="testLoginAdmin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testLoginAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="272">
+              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="27" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -443,18 +443,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest - 2017.09.22 at 11h 45m 51s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest - 2017.09.22 at 11h 46m 13s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest - 2017.09.22 at 11h 49m 58s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.22 at 18h 38m 05s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testLoginAdmin - 2017.09.22 at 18h 39m 43s.xml">
       <configuration name="testLoginAdmin" configurationId="JUnit" />
     </history-entry>
@@ -471,6 +459,18 @@
       <configuration name="testLoginAdmin" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testLoginAdmin - 2017.09.22 at 18h 49m 54s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.22 at 19h 10m 25s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.25 at 14h 50m 45s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.25 at 14h 52m 00s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.25 at 14h 52m 33s.xml">
       <configuration name="testLoginAdmin" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -533,7 +533,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -551,7 +551,7 @@
         <state relative-caret-position="425">
           <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -566,8 +566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testLoginAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="27" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
