@@ -6,10 +6,15 @@ import org.openqa.selenium.HasCapabilities;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
 
 /**
  * Created by User on 22.09.2017.
@@ -21,12 +26,17 @@ public class testLoginAdmin {
     private WebDriverWait wait;
     @Before
     public void start (){
-        driver = new FirefoxDriver();
-//        DesiredCapabilities caps = new DesiredCapabilities();
-//        caps.setCapability("unexpectedAlertBehaviour", "dismiss");
-//        WebDriver driver = new InternetExplorerDriver(caps);
-//        System.out.println(((HasCapabilities) driver).getCapabilities());
-        wait = new WebDriverWait(driver,10);
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setCapability("unexpectedAlertBehaviour", "dismiss");
+        driver = new ChromeDriver(caps);
+        System.out.println(((HasCapabilities) driver).getCapabilities());
+//         DesiredCapabilities cap = new DesiredCapabilities();
+//         cap.setCapability(FirefoxDriver.MARIONETTE,true);
+//      driver = new FirefoxDriver(new FirefoxBinary(new File("C:\\Program Files\\Nightly\\firefox.exe")),new FirefoxProfile(),cap);
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("start-maximized");
+//          driver = new ChromeDriver(options);
+          wait = new WebDriverWait(driver,10);
     }
     @Test
     public void testLogin () throws InterruptedException {
