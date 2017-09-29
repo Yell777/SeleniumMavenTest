@@ -1,10 +1,8 @@
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.HasCapabilities;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxBinary;
@@ -14,43 +12,55 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 import java.io.File;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by User on 22.09.2017.
  */
-public class testLoginAdmin {
+public class testLoginAdmin extends TestBase {
 
-
-    private WebDriver driver;
-    private WebDriverWait wait;
-    @Before
-    public void start (){
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("unexpectedAlertBehaviour", "dismiss");
-        driver = new ChromeDriver(caps);
-        System.out.println(((HasCapabilities) driver).getCapabilities());
-//         DesiredCapabilities cap = new DesiredCapabilities();
-//         cap.setCapability(FirefoxDriver.MARIONETTE,true);
-//      driver = new FirefoxDriver(new FirefoxBinary(new File("C:\\Program Files\\Nightly\\firefox.exe")),new FirefoxProfile(),cap);
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("start-maximized");
-//          driver = new ChromeDriver(options);
-          wait = new WebDriverWait(driver,10);
-    }
+//    @Test
+//    public void testLogin ()  {
+//        driver.get("http://localhost/litecart/admin/");
+//        driver.findElement(By.name("username")).sendKeys("admin");
+//        driver.findElement(By.name("password")).sendKeys("admin");
+//        driver.findElement(By.name("login")).click();
+////        driver.findElement(By.cssSelector("li:nth-child(3)")).click();
+//        driver.findElement(By.xpath("//div[@class='header']/a[@title='Home']")).click();
+//        driver.findElement(By.xpath("//table[@class='dataTable']//i[@class='fa fa-file-text-o']")).click();
+//
+//    }
     @Test
-    public void testLogin () throws InterruptedException {
+    public void testLoginMenuList ()  {
         driver.get("http://localhost/litecart/admin/");
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
-//        wait.wait(100);
+        List<WebElement> menulist = driver.findElements(By.xpath("//li[@id='app-']/a"));
+        int count = menulist.size();
+        System.out.println(count);
+        WebElement list ;
 
-    }
-    @After
-    public void stop (){
-        driver.quit();
-        wait = null;
+        for (int i = 1; i <= count ; i++) {
+            driver.findElement(By.xpath("//ul[@id='box-apps-menu']/li" + "[" + i + "]")).click();
+            if (isElementPresent(By.xpath("//ul[@class='docs']//a"))) {
+                List<WebElement> subMenulist = driver.findElements(By.xpath("//ul[@class='docs']//a"));
+                for (int j = 1; j <= subMenulist.size(); j++) {
+                    driver.findElement(By.xpath("//ul[@class='docs']/li" + "[" + j + "]")).click();
+                    Assert.assertTrue(isElementPresent(By.cssSelector("h1")));
+                }
+            }
+            System.out.println("//ul[@id='box-apps-menu']/li" + "[" + i + "]");
+            Assert.assertTrue(isElementPresent(By.cssSelector("h1")));
+
+        }
+
+
+
+
 
     }
 
