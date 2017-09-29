@@ -52,15 +52,11 @@ public class testLoginAdmin extends TestBase {
                     Assert.assertTrue(isElementPresent(By.cssSelector("h1")));
                 }
             }
-//            System.out.println("//ul[@id='box-apps-menu']/li" + "[" + i + "]");
             Assert.assertTrue(isElementPresent(By.cssSelector("h1")));
+
+            }
 
         }
 
-
-
-
-
-    }
 
 }

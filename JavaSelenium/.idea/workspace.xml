@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testLoginAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="81" />
+              <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +42,8 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javatest/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="402">
+              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -456,24 +456,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testLoginAdmin - 2017.09.29 at 13h 13m 52s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.29 at 13h 37m 25s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.29 at 13h 38m 50s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.29 at 13h 56m 40s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.29 at 13h 57m 23s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 23m 45s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testLoginAdmin - 2017.09.29 at 14h 32m 01s.xml">
       <configuration name="testLoginAdmin" configurationId="JUnit" />
     </history-entry>
@@ -484,6 +466,24 @@
       <configuration name="testLoginAdmin" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testLoginAdmin - 2017.09.29 at 14h 36m 08s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 43m 53s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 44m 36s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 46m 38s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 47m 52s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 55m 28s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 56m 39s.xml">
       <configuration name="testLoginAdmin" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -579,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javatest/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="402">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -590,7 +590,7 @@
     <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testLoginAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="81" />
+          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
