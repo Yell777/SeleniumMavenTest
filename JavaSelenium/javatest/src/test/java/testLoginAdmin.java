@@ -40,10 +40,7 @@ public class testLoginAdmin extends TestBase {
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
         List<WebElement> menulist = driver.findElements(By.xpath("//li[@id='app-']/a"));
-        int count = menulist.size();
-        System.out.println(count);
-
-        for (int i = 1; i <= count ; i++) {
+        for (int i = 1; i <= menulist.size() ; i++) {
             driver.findElement(By.xpath("//ul[@id='box-apps-menu']/li" + "[" + i + "]")).click();
             if (isElementPresent(By.xpath("//ul[@class='docs']//a"))) {
                 List<WebElement> subMenulist = driver.findElements(By.xpath("//ul[@class='docs']//a"));
