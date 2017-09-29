@@ -42,8 +42,8 @@
       <file leaf-file-name="testListDuckStick.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -504,11 +504,11 @@
     <history-entry file="testListDuckStick - 2017.09.29 at 19h 05m 48s.xml">
       <configuration name="testListDuckStick" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 44m 36s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    <history-entry file="testListDuckStick - 2017.09.29 at 19h 07m 17s.xml">
+      <configuration name="testListDuckStick" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 46m 38s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    <history-entry file="testListDuckStick - 2017.09.29 at 19h 10m 24s.xml">
+      <configuration name="testListDuckStick" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testLoginAdmin - 2017.09.29 at 14h 47m 52s.xml">
       <configuration name="testLoginAdmin" configurationId="JUnit" />
@@ -635,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
