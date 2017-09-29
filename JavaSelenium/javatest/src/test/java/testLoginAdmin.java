@@ -42,7 +42,6 @@ public class testLoginAdmin extends TestBase {
         List<WebElement> menulist = driver.findElements(By.xpath("//li[@id='app-']/a"));
         int count = menulist.size();
         System.out.println(count);
-        WebElement list ;
 
         for (int i = 1; i <= count ; i++) {
             driver.findElement(By.xpath("//ul[@id='box-apps-menu']/li" + "[" + i + "]")).click();
@@ -53,7 +52,7 @@ public class testLoginAdmin extends TestBase {
                     Assert.assertTrue(isElementPresent(By.cssSelector("h1")));
                 }
             }
-            System.out.println("//ul[@id='box-apps-menu']/li" + "[" + i + "]");
+//            System.out.println("//ul[@id='box-apps-menu']/li" + "[" + i + "]");
             Assert.assertTrue(isElementPresent(By.cssSelector("h1")));
 
         }
