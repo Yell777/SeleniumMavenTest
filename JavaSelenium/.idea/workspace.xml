@@ -42,8 +42,8 @@
       <file leaf-file-name="testListDuckStick.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,10 +54,12 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javatest/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="34" column="74" lean-forward="true" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+            <state relative-caret-position="181">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,9 +84,9 @@
       <list>
         <option value="$PROJECT_DIR$/javatest/src/test/java/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/javatest/pom.xml" />
-        <option value="$PROJECT_DIR$/javatest/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/javatest/src/test/java/testLoginAdmin.java" />
         <option value="$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java" />
+        <option value="$PROJECT_DIR$/javatest/src/test/java/TestBase.java" />
       </list>
     </option>
   </component>
@@ -510,8 +512,8 @@
     <history-entry file="testListDuckStick - 2017.09.29 at 19h 10m 24s.xml">
       <configuration name="testListDuckStick" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 47m 52s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    <history-entry file="testListDuckStick - 2017.09.29 at 19h 24m 24s.xml">
+      <configuration name="testListDuckStick" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testLoginAdmin - 2017.09.29 at 14h 55m 28s.xml">
       <configuration name="testLoginAdmin" configurationId="JUnit" />
@@ -613,16 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javatest/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="74" lean-forward="true" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testLoginAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -633,10 +625,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javatest/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

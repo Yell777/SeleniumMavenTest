@@ -16,6 +16,7 @@ public class testListDuckStick extends TestBase {
        List<WebElement> duckList =  driver.findElements(By.cssSelector("div.box li[class^=pro]"));
         System.out.println(duckList.size());
         for (int i = 1; i <= duckList.size() ; i++) {
+            
             Assert.assertTrue(isElementPresent(By.cssSelector("[class^=stick]")));
 
         }

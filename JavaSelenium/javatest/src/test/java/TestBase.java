@@ -26,6 +26,9 @@ public class TestBase  {
             return false;
         }
     }
+    boolean areElementsPresent(WebDriver driver, By locator) {
+        return driver.findElements(locator).size() > 0;
+    }
 
     @Before
     public void start (){
