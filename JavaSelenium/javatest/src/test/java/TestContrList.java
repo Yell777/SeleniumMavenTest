@@ -28,7 +28,7 @@ public class TestContrList extends TestBase {
 
             }else if (num !="0") {
                 coulist.get(i).click();
-                
+
             }
 
         }
