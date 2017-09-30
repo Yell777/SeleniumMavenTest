@@ -18,7 +18,7 @@ public class testListDuckStick extends TestBase {
         for (int i = 0; i < duckList.size() ; i++) {
             try {
                 duckList.get(i).findElement(By.cssSelector(" div[class^=sticker] "));
-            }catch (NoSuchElementException ex){
+            }catch (Exception ex){
                 System.out.println("Эелемент не найден ");
             }
 //            Assert.assertTrue(isElementPresent(By.cssSelector("[class^=stick]")));
