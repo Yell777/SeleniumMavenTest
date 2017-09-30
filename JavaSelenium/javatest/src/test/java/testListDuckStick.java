@@ -17,7 +17,7 @@ public class testListDuckStick extends TestBase {
        List<WebElement> duckList =  driver.findElements(By.cssSelector("div.box li[class^=pro]"));
         for (int i = 0; i < duckList.size() ; i++) {
             try {
-                duckList.get(i).findElement(By.cssSelector("div.box li[class^=pro] div[class^=sticker] "));
+                duckList.get(i).findElement(By.cssSelector(" div[class^=sticker] "));
             }catch (NoSuchElementException ex){
                 System.out.println("Эелемент не найден ");
             }
