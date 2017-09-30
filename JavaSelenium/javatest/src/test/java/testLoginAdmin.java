@@ -25,9 +25,7 @@ public class testLoginAdmin extends TestBase {
     @Test
     public void testLogin ()  {
         driver.get("http://localhost/litecart/admin/");
-        driver.findElement(By.name("username")).sendKeys("admin");
-        driver.findElement(By.name("password")).sendKeys("admin");
-        driver.findElement(By.name("login")).click();
+        loginAdmin();
 //        driver.findElement(By.cssSelector("li:nth-child(3)")).click();
 //        driver.findElement(By.xpath("//div[@class='header']/a[@title='Home']")).click();
 //        driver.findElement(By.xpath("//table[@class='dataTable']//i[@class='fa fa-file-text-o']")).click();
@@ -36,9 +34,7 @@ public class testLoginAdmin extends TestBase {
     @Test
     public void testLoginMenuList ()  {
         driver.get("http://localhost/litecart/admin/");
-        driver.findElement(By.name("username")).sendKeys("admin");
-        driver.findElement(By.name("password")).sendKeys("admin");
-        driver.findElement(By.name("login")).click();
+        loginAdmin();
         List<WebElement> menulist = driver.findElements(By.xpath("//li[@id='app-']/a"));
         for (int i = 1; i <= menulist.size() ; i++) {
             driver.findElement(By.xpath("//ul[@id='box-apps-menu']/li" + "[" + i + "]")).click();
