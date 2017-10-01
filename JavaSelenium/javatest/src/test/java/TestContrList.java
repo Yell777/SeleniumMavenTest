@@ -23,13 +23,10 @@ public class TestContrList extends TestBase {
         for (int i = 0; i < coulist.size() ; i++) {
             String s = coulist.get(i).findElement(By.tagName("a")).getAttribute("textContent");
             String num = coulist.get(i).findElement(By.xpath("//td[6]")).getText();
-
-            if (s.equals(listCou.get(i))&&num.equals("0")){
-
-            }else if (num !="0") {
-                coulist.get(i).click();
-
-            }
+//            if (s.equals(listCou.get(i))){
+//
+//            }
+          
 
         }
 
