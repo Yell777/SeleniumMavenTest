@@ -42,8 +42,8 @@
       <file leaf-file-name="testListDuckStick.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +85,8 @@
         <option value="$PROJECT_DIR$/javatest/src/test/java/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/javatest/pom.xml" />
         <option value="$PROJECT_DIR$/javatest/src/test/java/testLoginAdmin.java" />
-        <option value="$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java" />
         <option value="$PROJECT_DIR$/javatest/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java" />
       </list>
     </option>
   </component>
@@ -515,8 +515,8 @@
     <history-entry file="testListDuckStick - 2017.09.29 at 19h 24m 24s.xml">
       <configuration name="testListDuckStick" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 55m 28s.xml">
-      <configuration name="testLoginAdmin" configurationId="JUnit" />
+    <history-entry file="testListDuckStick - 2017.09.29 at 19h 45m 29s.xml">
+      <configuration name="testListDuckStick" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testLoginAdmin - 2017.09.29 at 14h 56m 39s.xml">
       <configuration name="testLoginAdmin" configurationId="JUnit" />
@@ -526,7 +526,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -639,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
