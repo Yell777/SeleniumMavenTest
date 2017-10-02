@@ -42,12 +42,17 @@
         <entry file="file://$PROJECT_DIR$/javatest/src/test/java/TestContrList.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="425">
               <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
 =======
             <state relative-caret-position="289">
               <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
 >>>>>>> 2bf5c21a6ce1b70645c59845346a0fbc43fbe25b
+=======
+            <state relative-caret-position="306">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+>>>>>>> parent of 77ceb6c... упс
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#609#617#0" expanded="true" />
@@ -88,12 +93,15 @@
         <option value="$PROJECT_DIR$/javatest/src/test/java/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/javatest/pom.xml" />
         <option value="$PROJECT_DIR$/javatest/src/test/java/testLoginAdmin.java" />
-        <option value="$PROJECT_DIR$/javatest/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/javatest/src/test/java/TestContrList.java" />
 >>>>>>> 2bf5c21a6ce1b70645c59845346a0fbc43fbe25b
+=======
+        <option value="$PROJECT_DIR$/javatest/src/test/java/TestBase.java" />
+>>>>>>> parent of 77ceb6c... упс
       </list>
     </option>
   </component>
@@ -517,12 +525,17 @@
       <configuration name="TestContrList" configurationId="JUnit" />
     </history-entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <history-entry file="testListDuckStick - 2017.09.29 at 19h 45m 29s.xml">
       <configuration name="testListDuckStick" configurationId="JUnit" />
 =======
     <history-entry file="TestContrList - 2017.10.01 at 14h 50m 09s.xml">
       <configuration name="TestContrList" configurationId="JUnit" />
 >>>>>>> 2bf5c21a6ce1b70645c59845346a0fbc43fbe25b
+=======
+    <history-entry file="testLoginAdmin - 2017.09.29 at 14h 55m 28s.xml">
+      <configuration name="testLoginAdmin" configurationId="JUnit" />
+>>>>>>> parent of 77ceb6c... упс
     </history-entry>
     <history-entry file="TestContrList - 2017.10.01 at 14h 52m 25s.xml">
       <configuration name="TestContrList" configurationId="JUnit" />
@@ -533,10 +546,14 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
 =======
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
 >>>>>>> 2bf5c21a6ce1b70645c59845346a0fbc43fbe25b
+=======
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+>>>>>>> parent of 77ceb6c... упс
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -829,6 +846,7 @@
     <entry file="file://$PROJECT_DIR$/javatest/src/test/java/testListDuckStick.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="425">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
 =======
@@ -845,6 +863,10 @@
         <state relative-caret-position="289">
           <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
 >>>>>>> 2bf5c21a6ce1b70645c59845346a0fbc43fbe25b
+=======
+        <state relative-caret-position="306">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+>>>>>>> parent of 77ceb6c... упс
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#609#617#0" expanded="true" />

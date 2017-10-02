@@ -15,6 +15,7 @@ public class testListDuckStick extends TestBase {
     public void testSticker () {
         driver.get("http://localhost/litecart/en/");
        List<WebElement> duckList =  driver.findElements(By.cssSelector("div.box li[class^=pro]"));
+<<<<<<< HEAD
         for (int i = 0; i < duckList.size() ; i++) {
             try {
                 duckList.get(i).findElement(By.cssSelector(" div[class^=sticker] "));
@@ -23,6 +24,12 @@ public class testListDuckStick extends TestBase {
             }
 //            Assert.assertTrue(isElementPresent(By.cssSelector("[class^=stick]")));
 
+=======
+        System.out.println(duckList.size());
+        for (int i = 1; i <= duckList.size() ; i++) {
+            
+            Assert.assertTrue(isElementPresent(By.cssSelector("[class^=stick]")));
+>>>>>>> parent of 77ceb6c... упс
 
         }
 
