@@ -20,13 +20,9 @@ public class TestContrList extends TestBase {
             listCou.add(coulist.get(i).findElement(By.tagName("a")).getAttribute("textContent"));
         }
         Collections.sort(listCou);
-        for (int i = 0; i < listCou.size() ; i++) {
-            System.out.println(listCou.get(i));
-        }
-
-//        for (int i = 0; i < coulist.size() ; i++) {
-//            String s = coulist.get(i).findElement(By.tagName("a")).getAttribute("textContent");
-//            String num = coulist.get(i).findElement(By.xpath("//td[6]")).getText();
+        for (int i = 0; i < coulist.size() ; i++) {
+            String s = coulist.get(i).findElement(By.tagName("a")).getAttribute("textContent");
+            String num = coulist.get(i).findElement(By.xpath("//td[6]")).getText();
 //            if (s.equals(listCou.get(i))){
 //
 //            }
@@ -42,4 +38,4 @@ public class TestContrList extends TestBase {
 
 
     }
-
+}
